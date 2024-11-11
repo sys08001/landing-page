@@ -3,12 +3,16 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+.header-hero{
+    background-color: #040212;
+    padding: 0px 300px;
+}
+
 .header {
-    background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 .logo {
@@ -26,4 +30,43 @@ body {
     padding: 0;
     display: flex;
     gap: 24px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0px;
+}
+
+.hero-info {
+    width: 500px;
+}
+
+.hero-main-text {
+    margin: 0;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-secondary-text {
+    color: #e7e5eb;
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+.hero-img {
+    height: 400px;
+    width: 700px;
+}
+
+.hero-button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #006633;
 }
