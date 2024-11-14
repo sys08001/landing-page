@@ -137,7 +137,7 @@ p {
 }
 
 .signup-inner {
-    background-color: #040212;
+    background-color: #151515;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
@@ -160,6 +160,14 @@ p {
     font-weight: bold;
     padding: 10px 40px;
     border-radius: 15px;
-    background-color: #040212;
+    background-color: #151515;
     border: 3px solid #006633;
+}
+
+.copyright-section {
+    font-size: 18px;
+    background-color: #040212;
+    color: #c1c1c1;
+    text-align: center;
+    padding: 40px 0px;
 }
