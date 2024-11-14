@@ -56,7 +56,7 @@ p {
 }
 
 .hero-secondary-text {
-    color: #e7e5eb;
+    color: #c1c1c1;
     font-size: 18px;
     margin: 10px 0px;
 }
@@ -129,4 +129,37 @@ p {
     font-size: 24px;
     font-weight: bold;
     text-align: right;
+}
+
+.signup-section {
+    background-color: #171524;
+    padding: 80px 320px;
+}
+
+.signup-inner {
+    background-color: #040212;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 200px;
+}
+
+.signup-inner-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.signup-inner-desc {
+    color: #c1c1c1;
+}
+
+.signup-button {
+    color: #006633;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 15px;
+    background-color: #040212;
+    border: 3px solid #006633;
 }
