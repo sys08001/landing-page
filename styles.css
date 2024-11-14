@@ -113,3 +113,20 @@ p {
     color: #c1c1c1;
     text-align: center;
 }
+
+.quote-section {
+    padding: 120px 420px;
+    background-color: #5E597C;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
