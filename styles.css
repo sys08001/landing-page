@@ -72,7 +72,7 @@ body {
 }
 
 .info-section {
-    margin: 50px 0 0 100px;
+    margin: 50px 0 100px 0;
 }
 
 .info-section > h1 {
@@ -104,4 +104,27 @@ body {
     border: 5px solid #3882f6;
     border-radius: 10px;
     margin-bottom: 10px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 150px 0 100px 0;
+}
+
+.quote {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    text-align: right;
+    font-size: 26px;
+    font-weight: 600;
 }
