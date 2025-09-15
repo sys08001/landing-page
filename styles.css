@@ -62,6 +62,7 @@ body {
     background-color: #3882f6;
     border: none;
     border-radius: 10px;
+    font-family: inherit;
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -140,6 +141,7 @@ body {
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .box-text > h1 {
@@ -156,6 +158,15 @@ body {
     background-color: #3882f6;
     border: solid white;
     border-radius: 10px;
+    font-family: inherit;
     font-size: 18px;
-    padding: 0px 40px;
+    padding: 5px 40px;
+
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
 }
